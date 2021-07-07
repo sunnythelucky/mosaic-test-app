@@ -1,0 +1,87 @@
+body,
+input {
+	font-family: "Raleway", sans-serif !important;
+}
+
+.header {
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.content {
+	margin-left: 30px;
+	display: block;
+}
+
+.description {
+	padding-left: 25px !important;
+}
+
+.ui.form,
+.tag {
+	border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.ui.form input[type="text"] {
+	border: 0;
+	font-size: 2rem;
+	padding: 10px;
+}
+
+.each {
+	padding: 20px !important;
+}
+
+.ui.list .list > .item .header,
+.ui.list > .item .header {
+	font-size: 47px;
+	font-weight: 600;
+}
+
+.ui.list {
+	font-size: 1.5rem;
+}
+
+.no-margin {
+	margin-top: 8px !important;
+}
+
+.no-background {
+	background: none !important;
+}
+
+i {
+	font-size: 40px !important;
+	font-weight: 100;
+}
+
+.invisible {
+	display: none !important;
+}
+
+.grade-list-right {
+	margin-left: 35px;
+}
+.grade-list {
+	display: flex;
+}
+
+.no-border {
+	border: 0;
+}
+
+.tag {
+	border-bottom: 2px solid gray;
+}
+
+.tag[type="text"] {
+	width: 250px;
+	padding-bottom: 12px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.underlined:focus {
+	outline: none;
+	border-bottom: 2px black solid;
+}
